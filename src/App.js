@@ -4,10 +4,12 @@ import Footer from "modules/Footer";
 import Map from "modules/Map";
 import DatePicking from "modules/DatePicking";
 import EmbededVideo from "modules/EmbededVideo";
+import ImageSlider from "modules/ImageSlider";
 
 function App() {
   return (
     <body dir="rtl">
+      <ImageSlider />
       <EmbededVideo />
       <DatePicking />
       <Map className="my-10" />

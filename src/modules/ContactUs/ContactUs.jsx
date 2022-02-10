@@ -26,7 +26,6 @@ const ContactUs = () => {
               component="textarea"
               placeholder="نظر خود را بنویسید"
               rows="6"
-              resize={false}
               className="my-2 w-full"
             />
           </div>
