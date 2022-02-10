@@ -1,0 +1,53 @@
+.plain,
+select,
+input,
+ul,
+li,
+select:focus {
+  border: 0;
+  outline: none;
+  outline-color: none;
+  box-shadow: none;
+}
+
+.li-current {
+  background: lightgreen;
+  font-weight: bold;
+}
+
+ul,
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 1px;
+}
+
+ul {
+  margin-bottom: 2px;
+}
+
+.li-calendar {
+  min-width: 33px;
+  height: 33px;
+}
+
+.li-empty {
+  min-width: 33px;
+  height: 33px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+@media (min-width: 320px) {
+  .modal-sm {
+    max-width: 300px !important;
+  }
+  .modal-dialog {
+    max-width: 500px;
+  }
+}

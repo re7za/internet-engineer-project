@@ -7,7 +7,8 @@ const Footer = () => {
         <a
           target="_blank"
           href="http://www.google.com"
-          className=" text-gray-500"
+          className="text-gray-500"
+          rel="noreferrer"
         >
           ورود به سایت ما
         </a>
