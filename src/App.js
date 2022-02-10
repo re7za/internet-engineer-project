@@ -1,9 +1,12 @@
 import "./App.css";
+import ContactUs from "modules/ContactUs";
 
 function App() {
   return (
-    <body>
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <body dir="rtl">
+      <footer className="bg-gray-100">
+        <ContactUs />
+      </footer>
     </body>
   );
 }
