@@ -90,8 +90,8 @@ const Calendar = ({ changeSaveDate, value }) => {
       <ul className="justify-content-between">
         <li>
           <select
-            className="form-select cursor-pointer content-center justify-center rounded-lg bg-indigo-100 py-2 px-4"
-            name="j_year"
+            className="cursor-pointer content-center justify-center rounded-lg bg-indigo-100 py-2 px-4"
+            name="year"
             value={selectYear}
             onChange={handleChange}
           >
@@ -104,8 +104,8 @@ const Calendar = ({ changeSaveDate, value }) => {
         </li>
         <li>
           <select
-            className="form-select cursor-pointer content-center justify-center rounded-lg bg-indigo-100 py-2 px-4"
-            name="j_month"
+            className="cursor-pointer content-center justify-center rounded-lg bg-indigo-100 py-2 px-4"
+            name="month"
             value={selectMonth}
             onChange={handleChange}
           >

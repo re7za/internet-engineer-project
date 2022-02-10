@@ -1,10 +1,11 @@
 import Carousel from "components/Carousel";
+import MainLayout from "layout/MainLayout";
 
 const ImageSlider = () => {
   return (
-    <div className="my-10 mx-auto max-w-7xl">
+    <MainLayout className="my-10">
       <Carousel />
-    </div>
+    </MainLayout>
   );
 };
 

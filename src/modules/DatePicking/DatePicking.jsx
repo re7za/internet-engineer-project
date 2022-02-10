@@ -1,4 +1,5 @@
 import DatePicker from "components/DatePicker";
+import MainLayout from "layout/MainLayout";
 import { useState } from "react";
 
 const DatePicking = () => {
@@ -8,7 +9,7 @@ const DatePicking = () => {
   const closeModal = () => setOpen(0);
 
   return (
-    <div className="my-10 flex justify-around md:justify-start">
+    <MainLayout className="my-10 flex justify-around md:justify-start">
       <div className="flex items-center">
         <div className="ml-2">از تاریخ</div>
         <DatePicker
@@ -27,7 +28,7 @@ const DatePicking = () => {
           name="jalaali-date-picker"
         />
       </div>
-    </div>
+    </MainLayout>
   );
 };
 

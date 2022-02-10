@@ -1,6 +1,8 @@
+import MainLayout from "layout/MainLayout";
+
 const EmbededVideo = () => {
   return (
-    <div class="mx-auto max-w-7xl">
+    <MainLayout>
       <iframe
         title="فیلم از آپارات"
         src="https://www.aparat.com/video/video/embed/videohash/E0q89/vt/frame"
@@ -10,7 +12,7 @@ const EmbededVideo = () => {
         className="border-0"
         loading="lazy"
       />
-    </div>
+    </MainLayout>
   );
 };
 

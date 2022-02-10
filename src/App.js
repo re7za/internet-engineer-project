@@ -5,10 +5,12 @@ import Map from "modules/Map";
 import DatePicking from "modules/DatePicking";
 import EmbededVideo from "modules/EmbededVideo";
 import ImageSlider from "modules/ImageSlider";
+import Gallery from "modules/Gallery";
 
 function App() {
   return (
     <body dir="rtl">
+      <Gallery />
       <ImageSlider />
       <EmbededVideo />
       <DatePicking />
