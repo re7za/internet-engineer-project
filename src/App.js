@@ -3,10 +3,12 @@ import ContactUs from "modules/ContactUs";
 import Footer from "modules/Footer";
 import Map from "modules/Map";
 import DatePicking from "modules/DatePicking";
+import EmbededVideo from "modules/EmbededVideo";
 
 function App() {
   return (
     <body dir="rtl">
+      <EmbededVideo />
       <DatePicking />
       <Map className="my-10" />
       <div className="bg-gray-100">

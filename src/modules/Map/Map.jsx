@@ -8,7 +8,7 @@ const Map = ({ className }) => {
         height="400"
         allowFullScreen
         aria-hidden="false"
-        className="rounded-lg border-0"
+        className="border-0"
         loading="lazy"
       />
     </div>

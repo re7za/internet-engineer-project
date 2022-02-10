@@ -8,7 +8,7 @@ const DatePicking = () => {
   const closeModal = () => setOpen(0);
 
   return (
-    <div className="my-10 flex">
+    <div className="my-10 flex justify-around md:justify-start">
       <div className="flex items-center">
         <div className="ml-2">از تاریخ</div>
         <DatePicker
