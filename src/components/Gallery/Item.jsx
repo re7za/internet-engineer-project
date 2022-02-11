@@ -1,9 +1,12 @@
 import VisibleByScrollWrapper from "layout/VisibleByScrollWrapper";
 
-const Item = ({ data }) => {
+const Item = ({ data, onClick }) => {
+  const handleClick = () => {
+    onClick(data);
+  };
   return (
     <VisibleByScrollWrapper className="flex justify-center duration-1000">
-      <div className="w-max">
+      <div onClick={handleClick} className="w-max">
         <div
           className="flex w-full overflow-hidden rounded-lg"
           style={{ height: "280px" }}
