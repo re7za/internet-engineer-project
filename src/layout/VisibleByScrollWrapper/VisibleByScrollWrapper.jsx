@@ -7,7 +7,7 @@ const VisibleByScrollWrapper = (props) => {
   const [visible, setVisible] = useState(false);
 
   const handleScroll = (_) => {
-    if (_ref.current.getBoundingClientRect().top < window.innerHeight / 1)
+    if (_ref.current.getBoundingClientRect().top < window.innerHeight / 1.2)
       setVisible(true);
   };
 

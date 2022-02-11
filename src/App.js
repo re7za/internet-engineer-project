@@ -7,10 +7,12 @@ import EmbededVideo from "modules/EmbededVideo";
 import ImageSlider from "modules/ImageSlider";
 import Propjects from "modules/Propjects";
 import ValueProposition from "modules/ValueProposition";
+import Header from "modules/Header";
 
 function App() {
   return (
     <body dir="rtl">
+      <Header />
       <ValueProposition />
       <Propjects />
       <ImageSlider />
