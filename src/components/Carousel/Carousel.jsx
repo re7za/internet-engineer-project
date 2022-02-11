@@ -7,7 +7,10 @@ const Carousel = () => {
       className="slide carousel relative"
       data-bs-ride="carousel"
     >
-      <div className="carousel-indicators absolute right-0 bottom-0 left-0 mb-4 flex justify-center p-0">
+      <div
+        dir="ltr"
+        className="carousel-indicators absolute right-0 bottom-0 left-0 mb-4 flex justify-center p-0"
+      >
         <button
           type="button"
           data-bs-target="#simple-carousel"
