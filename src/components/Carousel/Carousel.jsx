@@ -1,4 +1,7 @@
 import "tw-elements";
+import c1 from "public/slider/c1.jpg";
+import c2 from "public/slider/c2.jpg";
+import c3 from "public/slider/c3.jpg";
 
 const Carousel = () => {
   return (
@@ -34,33 +37,21 @@ const Carousel = () => {
       </div>
       <div className="carousel-inner relative w-full overflow-hidden">
         <div className="carousel-item active relative float-left w-full">
-          <img
-            src="https://picsum.photos/1280/563"
-            className="block w-full"
-            alt="تصویر اول"
-          />
+          <img src={c1} className="block w-full" alt="تصویر اول" />
           <div className="carousel-caption absolute hidden rounded-lg bg-slate-900/50 text-center md:block">
             <h5 className="text-xl">تایتل تصویر اول</h5>
             <p>این تصویر اولین تصویری است که نشان میدهیم</p>
           </div>
         </div>
         <div className="carousel-item relative float-left w-full">
-          <img
-            src="https://picsum.photos/1280/564"
-            className="block w-full"
-            alt="تصویر دوم"
-          />
+          <img src={c2} className="block w-full" alt="تصویر دوم" />
           <div className="carousel-caption absolute hidden rounded-lg bg-slate-900/50 text-center md:block">
             <h5 className="text-xl">تایتل تصویر دوم</h5>
             <p>این تصویر دومین تصویری است که نشان میدهیم</p>
           </div>
         </div>
         <div className="carousel-item relative float-left w-full">
-          <img
-            src="https://picsum.photos/1280/565"
-            className="block w-full"
-            alt="تصویر سوم"
-          />
+          <img src={c3} className="block w-full" alt="تصویر سوم" />
           <div className="carousel-caption absolute hidden rounded-lg bg-slate-900/50 text-center md:block">
             <h5 className="text-xl">تایتل تصویر سوم</h5>
             <p>این تصویر سومین تصویری است که نشان میدهیم</p>
