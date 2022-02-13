@@ -8,15 +8,22 @@ import ImageSlider from "modules/ImageSlider";
 import Propjects from "modules/Propjects";
 import ValueProposition from "modules/ValueProposition";
 import Header from "modules/Header";
+import FixedBgWrapper from "layout/FixedBgWrapper";
+import vbg from "public/video/vbg.jpg";
+import pbg from "public/samples/pbg.jpg";
 
 function App() {
   return (
     <body dir="rtl">
       <Header />
       <ValueProposition />
-      <Propjects />
+      <FixedBgWrapper bg={pbg} className="h-auto py-8">
+        <Propjects />
+      </FixedBgWrapper>
       <ImageSlider />
-      <EmbededVideo />
+      <FixedBgWrapper bg={vbg} className="h-auto py-40">
+        <EmbededVideo />
+      </FixedBgWrapper>
       <DatePicking />
       <Map className="my-20" />
       <div className="bg-gray-100">
