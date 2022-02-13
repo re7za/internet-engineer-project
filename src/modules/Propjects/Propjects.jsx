@@ -20,7 +20,7 @@ const data = [
 ];
 
 const Propjects = () => {
-  return <Gallery data={data} title="نمونه کار های ما" />;
+  return <Gallery id="samples" data={data} title="نمونه کار های ما" />;
 };
 
 export default Propjects;

@@ -4,13 +4,13 @@ import MainLayout from "layout/MainLayout";
 
 const ContactUs = () => {
   return (
-    <MainLayout className="py-10 px-4 md:px-0">
+    <MainLayout id="contact-us" className="py-10 px-4 md:px-0">
       <h4 className="mb-8 text-center text-xl font-bold">تماس با ما</h4>
       <div className="flex flex-col-reverse justify-center md:flex-row">
         <form>
           <div className="flex flex-col md:flex-row">
             <TextField
-              name="full-name"
+              name="fullname"
               placeholder="نام"
               className="my-2 md:ml-2"
             />

@@ -1,6 +1,5 @@
 const Backdrop = (props) => {
   const { open, onClick, transparent, className } = props;
-  console.log(open);
   return (
     <>
       {!!open && (

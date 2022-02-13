@@ -30,7 +30,10 @@ const data = [
 
 const ValueProposition = () => {
   return (
-    <MainLayout className="grid grid-cols-1 gap-x-4 gap-y-16 sm:grid-cols-2 lg:grid-cols-4">
+    <MainLayout
+      id="values"
+      className="grid grid-cols-1 gap-x-4 gap-y-16 sm:grid-cols-2 lg:grid-cols-4"
+    >
       {data?.map((el, i) => (
         <Item key={i} data={el} />
       ))}

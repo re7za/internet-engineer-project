@@ -3,14 +3,14 @@ import MainLayout from "layout/MainLayout";
 import { useState } from "react";
 import Item from "./Item";
 
-const Gallery = ({ data, title }) => {
+const Gallery = ({ data, title, id }) => {
   const [selectedItem, setSelectedItem] = useState(null);
   const openModalBy = (val) => setSelectedItem(val);
   const closeModal = () => setSelectedItem(null);
 
   return (
     <>
-      <MainLayout className={`my-20 lg:px-4 xl:px-0 `}>
+      <MainLayout id={id} className={`my-20 lg:px-4 xl:px-0 `}>
         {title && (
           <h4 className="mb-8 text-center text-xl font-bold">{title}</h4>
         )}

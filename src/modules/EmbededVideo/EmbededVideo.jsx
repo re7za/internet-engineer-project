@@ -2,7 +2,7 @@ import MainLayout from "layout/MainLayout";
 
 const EmbededVideo = () => {
   return (
-    <MainLayout>
+    <MainLayout id="video">
       <iframe
         title="فیلم از آپارات"
         src="https://www.aparat.com/video/video/embed/videohash/E0q89/vt/frame"

@@ -3,7 +3,7 @@ import MainLayout from "layout/MainLayout";
 
 const ImageSlider = () => {
   return (
-    <MainLayout className="my-20">
+    <MainLayout id="slider" className="my-20">
       <Carousel />
     </MainLayout>
   );
