@@ -1,20 +1,24 @@
 import Gallery from "components/Gallery";
+import s1 from "public/samples/s1.jpg";
+import s2 from "public/samples/s2.jpg";
+import s3 from "public/samples/s3.jpg";
+import s4 from "public/samples/s4.jpg";
 
 const data = [
   {
-    src: "https://picsum.photos/280/280",
+    src: s1,
     label: "پروژه اول ما",
   },
   {
-    src: "https://picsum.photos/281/280",
+    src: s2,
     label: "پروژه دوم ما",
   },
   {
-    src: "https://picsum.photos/282/280",
+    src: s3,
     label: "پروژه سوم ما",
   },
   {
-    src: "https://picsum.photos/283/280",
+    src: s4,
     label: "پروژه چهارم ما",
   },
 ];
