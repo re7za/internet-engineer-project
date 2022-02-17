@@ -9,7 +9,7 @@ const DatePicking = () => {
   const closeModal = () => setOpen(0);
 
   return (
-    <MainLayout className="my-20 flex grow justify-center lg:justify-start">
+    <MainLayout className="my-20 mr-5 flex grow justify-center lg:justify-start">
       <div className="flex items-center">
         <div className="ml-2">از تاریخ</div>
         <DatePicker

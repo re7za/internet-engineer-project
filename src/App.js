@@ -12,6 +12,7 @@ import Header from "modules/Header";
 import FixedBgWrapper from "layout/FixedBgWrapper";
 import vbg from "public/video/vbg.jpg";
 import pbg from "public/samples/pbg.jpg";
+import MainLayout from "layout/MainLayout";
 
 function App() {
   return (
@@ -25,10 +26,10 @@ function App() {
       <FixedBgWrapper bg={vbg} className="h-auto py-40">
         <EmbededVideo />
       </FixedBgWrapper>
-      <div className="lg:flex lg:justify-center">
+      <MainLayout className="my-20 grow lg:flex lg:justify-between">
         <DatePicking />
         <Calculator />
-      </div>
+      </MainLayout>
       <Map className="my-20" />
       <div className="bg-gray-100">
         <ContactUs />
