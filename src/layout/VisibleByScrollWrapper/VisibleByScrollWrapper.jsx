@@ -19,7 +19,7 @@ const VisibleByScrollWrapper = (props) => {
       setVisible(true);
 
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [handleScroll]);
 
   return (
     <div
