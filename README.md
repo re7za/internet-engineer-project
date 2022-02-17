@@ -1,3 +1,8 @@
+# Description
+
+This is a mini project related to university and implemented in several days using React.js and also Tailwind css as the css library.
+I actually couldn't find the purpose of this project so maybe it's about nothing and just a bunch of components.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
