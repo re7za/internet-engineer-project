@@ -13,6 +13,7 @@ import FixedBgWrapper from "layout/FixedBgWrapper";
 import vbg from "public/video/vbg.jpg";
 import pbg from "public/samples/pbg.jpg";
 import MainLayout from "layout/MainLayout";
+import ScrollTop from "modules/ScrollTop";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
       <div className="bg-gray-100">
         <ContactUs />
       </div>
+      <ScrollTop />
       <Footer />
     </body>
   );
