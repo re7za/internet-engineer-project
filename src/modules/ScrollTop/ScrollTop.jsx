@@ -19,7 +19,7 @@ const ScrollTop = () => {
 
   return (
     <button
-      className={`fixed right-10 bottom-10 rounded-full bg-indigo-600 p-5 transition ${
+      className={`fixed right-4 bottom-4 rounded-full bg-indigo-400 p-5 opacity-70 transition hover:bg-indigo-600 hover:opacity-100 md:bottom-10 md:right-10 ${
         show ? "block" : "hidden"
       }`}
       onClick={() => window.scrollTo(0, 0)}
