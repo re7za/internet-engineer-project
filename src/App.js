@@ -3,6 +3,7 @@ import ContactUs from "modules/ContactUs";
 import Footer from "modules/Footer";
 import Map from "modules/Map";
 import DatePicking from "modules/DatePicking";
+import Calculator from "modules/Calculator";
 import EmbededVideo from "modules/EmbededVideo";
 import ImageSlider from "modules/ImageSlider";
 import Propjects from "modules/Propjects";
@@ -24,7 +25,10 @@ function App() {
       <FixedBgWrapper bg={vbg} className="h-auto py-40">
         <EmbededVideo />
       </FixedBgWrapper>
-      <DatePicking />
+      <div className="lg:flex lg:justify-center">
+        <DatePicking />
+        <Calculator />
+      </div>
       <Map className="my-20" />
       <div className="bg-gray-100">
         <ContactUs />
